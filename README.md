@@ -38,7 +38,7 @@ Maps are simplified for the watch's display, memory and storage. Some features a
 
 No map is bundled. Downloads need the paired phone, internet and an available server. Saved maps work offline. Download around me requires an outdoor GPS fix. The optional Connect IQ Location to Download field is an alternative search shortcut.
 
-[Setup, routes and controls](SETUP.md) · [Troubleshooting](SUPPORT.md) · [Shared privacy policy](https://asparaguss.github.io/europemaps/)
+[Setup, routes and controls](SETUP.md) · [Troubleshooting](SUPPORT.md) · [Shared privacy policy](https://asparaguss.github.io/openmaps/)
 
 ## Supported watches
 
@@ -46,11 +46,11 @@ Instinct 3 Solar 45/50 mm and Instinct E 40/45 mm. Check the relevant Connect IQ
 
 ## Support
 
-[Report a problem](https://github.com/Asparaguss/europemaps/issues/new/choose) or email [asparaguss@proton.me](mailto:asparaguss@proton.me). Include the app name, regular/beta build, watch model, phone platform and exact error. Do not post pairing codes, access keys or private tracks publicly.
+[Report a problem](https://github.com/Asparaguss/openmaps/issues/new/choose) or email [asparaguss@proton.me](mailto:asparaguss@proton.me). Include the app name, regular/beta build, watch model, phone platform and exact error. Do not post pairing codes, access keys or private tracks publicly.
 
 ## About this repository
 
-This is the one shared **OpenMaps public documentation repository**. Its existing `europemaps` repository address is retained so older GitHub Pages privacy links remain valid. GitHub repository redirects do not automatically preserve a renamed project's Pages URL.
+This is the one shared **OpenMaps public documentation repository**. The repository is named `openmaps`. The shared privacy notice is at https://asparaguss.github.io/openmaps/ . Update older store and server privacy links to this address; the previous GitHub Pages project URL is not automatically redirected by GitHub.
 
 Watch/server source, signing keys, runtime data and full map archives are not published here. Install app updates through Connect IQ. Existing EuropeMaps service links remain supported alongside the OpenMaps domain.
 

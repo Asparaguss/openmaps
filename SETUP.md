@@ -76,4 +76,4 @@ Saved maps and route corridors share app storage; one is active at a time. Up to
 
 Update through Connect IQ. Avoid uninstalling if you want to preserve maps, routes, settings and installation credentials. Current compatibility and availability are shown on the store listing; private beta features may differ.
 
-[Privacy policy](https://asparaguss.github.io/europemaps/)
+[Privacy policy](https://asparaguss.github.io/openmaps/)

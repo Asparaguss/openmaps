@@ -55,8 +55,8 @@ Maps and names are simplified and detail varies with location and scale. For a c
 
 ## Contact
 
-[Open a GitHub issue](https://github.com/Asparaguss/europemaps/issues/new/choose) or email [asparaguss@proton.me](mailto:asparaguss@proton.me). Include app name and region, regular/beta version, watch model/size, app build, phone platform, exact error and reproduction steps.
+[Open a GitHub issue](https://github.com/Asparaguss/openmaps/issues/new/choose) or email [asparaguss@proton.me](mailto:asparaguss@proton.me). Include app name and region, regular/beta version, watch model/size, app build, phone platform, exact error and reproduction steps.
 
 Public issues are visible to everyone. Do not post pairing codes, access secrets or private GPX/FIT tracks. Use email if your report requires private location details.
 
-[Privacy policy](https://asparaguss.github.io/europemaps/)
+[Privacy policy](https://asparaguss.github.io/openmaps/)
