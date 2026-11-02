@@ -1,6 +1,6 @@
 ---
 name: Problem report
-about: Report a problem with EuropeMaps
+about: Report a problem with EuropeMaps or NorthAmericaMaps
 title: ''
 labels: ''
 assignees: ''
@@ -8,7 +8,11 @@ assignees: ''
 
 **Watch model and size:**
 
-**EuropeMaps version:**
+**App:** EuropeMaps / NorthAmericaMaps (NAMaps)
+
+**Version and channel:** Regular / Beta
+
+**Region website used:**
 
 **Watch firmware (if known):**
 

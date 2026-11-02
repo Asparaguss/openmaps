@@ -1,6 +1,15 @@
-# EuropeMaps support
+# OpenMaps support
 
-[Store listing](https://apps.garmin.com/apps/f5cd5919-84f9-41b3-b5c7-276a154039bc) · [Setup guide](SETUP.md) · [Maps & Routes](https://europemaps.duckdns.org/routes)
+[Store listing](https://apps.garmin.com/apps/f5cd5919-84f9-41b3-b5c7-276a154039bc) · [Setup guide](SETUP.md) · [Europe maps](https://openmaps.duckdns.org/routes) · [North America maps](https://openmaps.duckdns.org/na/routes)
+
+## Check the region first
+
+These instructions cover EuropeMaps and NorthAmericaMaps (NAMaps), including separately installed betas. Keep the app matching your selected region open on the watch:
+
+- EuropeMaps: https://openmaps.duckdns.org/routes
+- NorthAmericaMaps: https://openmaps.duckdns.org/na/routes
+
+Existing EuropeMaps addresses continue to work. A code from one app does not pair another app. EuropeMaps Premium does not activate NorthAmericaMaps; NorthAmericaMaps Premium is not yet available.
 
 ## No map after installation
 
@@ -14,7 +23,7 @@ A negative communications status such as **-300** may indicate a phone/Connect c
 
 ## Website search does not change the map
 
-After searching, tap the intended result below the search field. You can also tap the map directly, with no search required. Check the coverage outline, then start the transfer; **Check coverage** alone does not download the area.
+After searching, tap the intended result below the search field. Choose Preview download area, then Load interactive map if you want the map and boundary shown. You can also tap the map directly, with no search required. Check the coverage outline, then start the transfer; **Check coverage** alone does not download the area.
 
 ## Invalid or expired code / too many requests
 
@@ -46,7 +55,7 @@ Maps and names are simplified and detail varies with location and scale. For a c
 
 ## Contact
 
-[Open a GitHub issue](https://github.com/Asparaguss/europemaps/issues/new/choose) or email [asparaguss@proton.me](mailto:asparaguss@proton.me). Include watch model/size, app build, phone platform, exact error and reproduction steps.
+[Open a GitHub issue](https://github.com/Asparaguss/europemaps/issues/new/choose) or email [asparaguss@proton.me](mailto:asparaguss@proton.me). Include app name and region, regular/beta version, watch model/size, app build, phone platform, exact error and reproduction steps.
 
 Public issues are visible to everyone. Do not post pairing codes, access secrets or private GPX/FIT tracks. Use email if your report requires private location details.
 
