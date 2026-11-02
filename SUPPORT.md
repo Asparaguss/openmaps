@@ -1,19 +1,22 @@
 # OpenMaps support
 
-[Store listing](https://apps.garmin.com/apps/f5cd5919-84f9-41b3-b5c7-276a154039bc) · [Setup guide](SETUP.md) · [Europe maps](https://openmaps.duckdns.org/routes) · [North America maps](https://openmaps.duckdns.org/na/routes)
+[Store listing](https://apps.garmin.com/apps/f5cd5919-84f9-41b3-b5c7-276a154039bc) · [Setup guide](SETUP.md) · [Maps & routes](https://openmaps.duckdns.org/routes)
 
-## Check the region first
+## Check the app and rollout first
 
-These instructions cover EuropeMaps and NorthAmericaMaps (NAMaps), including separately installed betas. Keep the app matching your selected region open on the watch:
+The unified OpenMaps production update is prepared; rollout is pending. For
+OpenMaps 1.0 use https://openmaps.duckdns.org/routes for both Europe and North
+America. There is no region switch for normal downloads. Keep the app that
+generated the code open. Separate betas have separate credentials and storage.
 
-- EuropeMaps: https://openmaps.duckdns.org/routes
-- NorthAmericaMaps: https://openmaps.duckdns.org/na/routes
-
-Existing EuropeMaps addresses continue to work. A code from one app does not pair another app. EuropeMaps Premium does not activate NorthAmericaMaps; NorthAmericaMaps Premium is not yet available.
+After the server migration, old NAMaps /na endpoints return 410. Update/move to
+OpenMaps. Existing EuropeMaps European API paths remain supported. The new
+Premium entitlement covers all supported regions and honors eligible existing
+EuropeMaps purchases. Reinstall/replacement restoration uses the purchase email.
 
 ## No map after installation
 
-No map is bundled. Open Garmin Connect on the phone and EuropeMaps on the watch, then choose **MENU → Download maps → Choose on phone**. Follow the [setup guide](SETUP.md).
+No map is bundled. Open Garmin Connect on the phone and OpenMaps on the watch, then choose **MENU → Download maps → Choose on phone**. Follow the [setup guide](SETUP.md).
 
 ## No phone link or code request stopped
 
@@ -31,7 +34,7 @@ Codes expire after ten minutes and are used for one transfer. Keep the watch on 
 
 ## Transfer stalls or stops
 
-Keep EuropeMaps open and the phone connected with internet access. Return from the browser to Garmin Connect. If standby interrupts the download, leave Connect in the foreground. Large areas need many requests and can take several minutes; start with 2 × 2 km. Do not assume the website's “Transfer sent” message means every map piece is already on the watch.
+Keep OpenMaps open and the phone connected with internet access. Return from the browser to Garmin Connect. If standby interrupts the download, leave Connect in the foreground. Large areas need many requests and can take several minutes; start with 2 × 2 km. Do not assume the website's “Transfer sent” message means every map piece is already on the watch.
 
 ## Server paused / quota / HTTP 403
 
@@ -51,7 +54,7 @@ A linked route's **Delete route + map** removes that route and corridor. Saved m
 
 ## Missing detail or an IQ! crash
 
-Maps and names are simplified and detail varies with location and scale. For a crash, report the exact steps, zoom scale, orientation, watch model/firmware and EuropeMaps build. If available, include the relevant Error block from GARMIN/APPS/LOGS/CIQ_LOG.YAML, after checking it for private information. A simulator check cannot rule out every physical-watch issue.
+Maps and names are simplified and detail varies with location and scale. For a crash, report the exact steps, zoom scale, orientation, watch model/firmware and OpenMaps build. If available, include the relevant Error block from GARMIN/APPS/LOGS/CIQ_LOG.YAML, after checking it for private information. A simulator check cannot rule out every physical-watch issue.
 
 ## Contact
 
@@ -60,3 +63,4 @@ Maps and names are simplified and detail varies with location and scale. For a c
 Public issues are visible to everyone. Do not post pairing codes, access secrets or private GPX/FIT tracks. Use email if your report requires private location details.
 
 [Privacy policy](https://asparaguss.github.io/openmaps/)
+

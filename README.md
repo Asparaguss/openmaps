@@ -2,56 +2,91 @@
 
 ### Offline maps. On your wrist.
 
-OpenMaps is the shared documentation, support and privacy hub for **EuropeMaps** and **NorthAmericaMaps (NAMaps)** by **Asparagus**. The website is [openmaps.duckdns.org](https://openmaps.duckdns.org/).
+OpenMaps brings simplified OpenStreetMap maps and GPX routes to compatible Garmin
+Instinct watches, with Europe and North America in one app. Choose a location;
+the service selects the regional archive automatically.
 
-| App | Coverage | Choose maps and import GPX |
-| --- | --- | --- |
-| EuropeMaps | Europe | [Europe maps and routes](https://openmaps.duckdns.org/routes) |
-| NorthAmericaMaps / NAMaps | North America | [North America maps and routes](https://openmaps.duckdns.org/na/routes) |
+**Release status — 3 November 2026:** the OpenMaps 1.0 production update is
+prepared. Server rollout and the Connect IQ release are pending. These unified
+instructions apply after both updates are installed. The current store app may
+still be named EuropeMaps. This documentation update does not deploy the server
+or upload a watch release.
 
-These are separate watch apps with separate regional map archives and installation credentials. Choose the website matching the app open on your watch. Beta apps are separate installations and may differ from the public release.
-
-[Install EuropeMaps from Connect IQ](https://apps.garmin.com/apps/f5cd5919-84f9-41b3-b5c7-276a154039bc). Install NorthAmericaMaps through its Connect IQ listing when available; check each listing for the exact compatible devices and published features.
+[Maps & routes](https://openmaps.duckdns.org/routes) ·
+[Premium & restoration](https://openmaps.duckdns.org/premium) ·
+[Connect IQ listing](https://apps.garmin.com/apps/f5cd5919-84f9-41b3-b5c7-276a154039bc)
 
 ## Features
 
-- Simplified OpenStreetMap streets, paths, waterways and selected names.
-- Free 2 × 2, 4 × 4 and 8 × 8 km area downloads.
-- GPX route imports with matching offline map corridors.
-- Up to five saved map areas or route-corridor pairs share available app storage; one is loaded at a time.
+- Simplified streets, paths, waterways and selected OpenStreetMap names.
+- Free 2 × 2, 4 × 4 and 8 × 8 km downloads; one saved route with its map corridor.
 - North up or Direction up, GPS following, zoom, pan and recenter.
-- Walking, hiking and cycling activity recording using Garmin's native recording and synchronization.
-- Map-name, backlight and map-information settings.
+- GPX import through the website and matching offline corridor downloads.
+- Walking, hiking and cycling recording, saved and synced through Garmin Connect.
+- Up to five saved map areas or route-corridor pairs within available storage;
+  one is loaded at a time.
 
-EuropeMaps Premium adds 16 × 16 and 24 × 24 km maps and multiple saved routes within its technical limits. **NorthAmericaMaps Premium is not available in the current release.** EuropeMaps purchases do not unlock another region or app. No subscription or paid NorthAmericaMaps feature is required for its current free release.
+OpenMaps Premium adds 16 × 16 and 24 × 24 km maps and multiple saved routes.
+The new release's price is **EUR 5.49 once**, with no subscription. One license
+covers all supported regions on one active watch installation. Current coverage
+is Europe and North America; the app does not yet cover every country worldwide.
+Normal download quotas, archive coverage and technical storage limits apply.
 
-Maps are simplified for the watch's display, memory and storage. Some features and names are omitted. NorthAmericaMaps route corridors are limited to 64 tiles within an 8 × 8 km bounding box. Larger or dense downloads take longer. The apps do not provide turn-by-turn instructions or automatic rerouting.
+Existing eligible EuropeMaps Premium purchases carry over, including purchases
+at the former price. The shop remains the existing
+[BMC Premium item](https://buymeacoffee.com/asparaguss/e/592998). Its checkout price
+must be updated before the new offer launches; always check the final payable
+amount before buying. Donations are separate from Premium.
 
-## Quick start
+## Update and start
 
-1. Install the appropriate app and open it on the watch. Leave Map server set to Default.
-2. Open **Garmin Connect** on the connected phone.
-3. On the watch, hold **MENU → Download maps → Choose on phone**.
-4. Accept the browser link, or open the regional website above and enter the temporary watch code. If the link is missing, press GPS on the watch code screen with Garmin Connect open.
-5. Search and select a result, or load the interactive map and tap the centre. Choose a size and **Preview download area**. Preview alone does not send a download.
-6. Send the selection, return to Garmin Connect when prompted and keep the watch app open until the download finishes.
+OpenMaps updates the existing EuropeMaps production app identity. Update through
+Connect IQ without uninstalling to retain saved content and installation data.
+Separately installed beta apps have their own storage and credentials.
 
-No map is bundled. Downloads need the paired phone, internet and an available server. Saved maps work offline. Download around me requires an outdoor GPS fix. The optional Connect IQ Location to Download field is an alternative search shortcut.
+1. Open OpenMaps on the watch and Garmin Connect on the paired phone.
+2. Hold **MENU → Download maps → Choose on phone**. Keep the app open.
+3. Accept the browser link or visit the maps-and-routes page and enter the watch
+   code. No Garmin login or separate OpenMaps password is needed on our website.
+4. Select a search result or tap the map, choose a size, preview and send.
+5. Return to Garmin Connect if prompted and keep the phone connected until done.
 
-[Setup, routes and controls](SETUP.md) · [Troubleshooting](SUPPORT.md) · [Shared privacy policy](https://asparaguss.github.io/openmaps/)
+No map is bundled. Downloads require a paired phone, internet and an available
+server. Saved maps work offline. Around me requires an outdoor GPS fix. Maps
+are simplified; some detail is omitted. No turn-by-turn instructions or automatic
+rerouting are provided.
+
+[Setup and controls](SETUP.md) · [Troubleshooting](SUPPORT.md) ·
+[Privacy policy](https://asparaguss.github.io/openmaps/)
 
 ## Supported watches
 
-Instinct 3 Solar 45/50 mm and Instinct E 40/45 mm. Check the relevant Connect IQ compatible-device list for your exact watch. Experimental ports are not announced as supported devices.
+Instinct 3 Solar 45/50 mm and Instinct E 40/45 mm. Check the Connect IQ
+compatible-device list for your exact watch. No additional models are announced
+by this update.
 
-## Support
+## Legacy apps and services
 
-[Report a problem](https://github.com/Asparaguss/openmaps/issues/new/choose) or email [asparaguss@proton.me](mailto:asparaguss@proton.me). Include the app name, regular/beta build, watch model, phone platform and exact error. Do not post pairing codes, access keys or private tracks publicly.
+Existing EuropeMaps clients retain their European API paths. OpenMaps 1.0 uses
+one API, one request worker and the existing primary licensing/accounting state
+for both regions. The production migration retires the unused separate NAMaps
+API and worker. Its old /na endpoints return 410 after migration. Move from the
+separate NAMaps beta to OpenMaps; its storage cannot be automatically transferred
+between different Garmin application identities. Existing eligible Premium
+purchases can be restored using purchase-email verification. Old NA state and
+archives are retained on disk; usage is not retroactively merged.
 
-## About this repository
+## Support and repository
 
-This is the one shared **OpenMaps public documentation repository**. The repository is named `openmaps`. The shared privacy notice is at https://asparaguss.github.io/openmaps/ . Update older store and server privacy links to this address; the previous GitHub Pages project URL is not automatically redirected by GitHub.
+[Report an issue](https://github.com/Asparaguss/openmaps/issues/new/choose) or email
+[asparaguss@proton.me](mailto:asparaguss@proton.me). Include app/build, watch model,
+phone platform and exact error. Never post pairing codes, secrets or private tracks.
 
-Watch/server source, signing keys, runtime data and full map archives are not published here. Install app updates through Connect IQ. Existing EuropeMaps service links remain supported alongside the OpenMaps domain.
+This public repository contains documentation, support and privacy information.
+Watch/server source, signing keys, credentials, runtime databases and full map
+archives remain private. Install app updates through Connect IQ.
 
-Map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), ODbL 1.0. Place names include [GeoNames](https://www.geonames.org/), CC BY 4.0. OpenMaps by Asparagus is independent of Garmin; Garmin and Connect IQ are Garmin trademarks.
+Map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright),
+ODbL 1.0. Place names include [GeoNames](https://www.geonames.org/), CC BY 4.0.
+OpenMaps by Asparagus is independent of Garmin; Garmin and Connect IQ are Garmin
+trademarks.
