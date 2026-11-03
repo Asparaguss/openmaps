@@ -32,12 +32,6 @@ covers all supported regions on one active watch installation. Current coverage
 is Europe and North America; the app does not yet cover every country worldwide.
 Normal download quotas, archive coverage and technical storage limits apply.
 
-Existing eligible EuropeMaps Premium purchases carry over, including purchases
-at the former price. The shop remains the existing
-[BMC Premium item](https://buymeacoffee.com/asparaguss/e/592998). Its checkout price
-must be updated before the new offer launches; always check the final payable
-amount before buying. Donations are separate from Premium.
-
 ## Update and start
 
 OpenMaps updates the existing EuropeMaps production app identity. Update through
@@ -65,16 +59,6 @@ Instinct 3 Solar 45/50 mm and Instinct E 40/45 mm. Check the Connect IQ
 compatible-device list for your exact watch. No additional models are announced
 by this update.
 
-## Legacy apps and services
-
-Existing EuropeMaps clients retain their European API paths. OpenMaps 1.0 uses
-one API, one request worker and the existing primary licensing/accounting state
-for both regions. The production migration retires the unused separate NAMaps
-API and worker. Its old /na endpoints return 410 after migration. Move from the
-separate NAMaps beta to OpenMaps; its storage cannot be automatically transferred
-between different Garmin application identities. Existing eligible Premium
-purchases can be restored using purchase-email verification. Old NA state and
-archives are retained on disk; usage is not retroactively merged.
 
 ## Support and repository
 
